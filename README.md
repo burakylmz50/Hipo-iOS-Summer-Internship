@@ -58,7 +58,7 @@ MVC design pattern is used for this project.
 * <a href="https://github.com/SnapKit/SnapKit">SnapKit</a>
 
 ## Design
-I made the designs on the **figma**, sticking to the template you sent.
+The designs were made on **Figma** depend on the template you sent.
 
 ## Requirements
 * iOS 11.0+
