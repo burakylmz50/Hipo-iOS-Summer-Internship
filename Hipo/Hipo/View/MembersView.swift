@@ -23,5 +23,4 @@ class MembersView{
         }
         return array
     }
-    
 }
