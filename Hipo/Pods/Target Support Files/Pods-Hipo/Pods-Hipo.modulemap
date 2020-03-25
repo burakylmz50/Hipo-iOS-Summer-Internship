@@ -1,0 +1,6 @@
+module Pods_Hipo {
+  umbrella header "Pods-Hipo-umbrella.h"
+
+  export *
+  module * { export * }
+}

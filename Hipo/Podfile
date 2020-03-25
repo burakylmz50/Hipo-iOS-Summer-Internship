@@ -1,10 +1,10 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'snapkitTest' do
+target 'Hipo' do
 
 pod 'SnapKit', '~> 5.0.0'
 
-  # Pods for snapkitTest
+  # Pods for Hipo
 
 end

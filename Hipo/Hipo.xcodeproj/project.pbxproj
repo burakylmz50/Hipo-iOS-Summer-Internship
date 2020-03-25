@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54099587A7AAEE35C8673667 /* libPods-Hipo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4C1CA25C6066B9E4318E52 /* libPods-Hipo.a */; };
 		65198A6824203CF3004CE10D /* MembersSortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65198A6724203CF3004CE10D /* MembersSortView.swift */; };
 		651A6EA0242AA398002D3B3D /* ExtensionEM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A6E9F242AA398002D3B3D /* ExtensionEM.swift */; };
 		6522EFE32428E5CB0099A6AF /* ExtensionNM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6522EFE22428E5CB0099A6AF /* ExtensionNM.swift */; };
@@ -20,11 +21,13 @@
 		65D7CAFE241D63D9004F041C /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7CAFD241D63D9004F041C /* HomePageViewController.swift */; };
 		65D7CB03241D63DA004F041C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D7CB02241D63DA004F041C /* Assets.xcassets */; };
 		65D7CB06241D63DA004F041C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D7CB04241D63DA004F041C /* LaunchScreen.storyboard */; };
-		F255DF004184F32E288A5790 /* libPods-snapkitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A969A7216D89566905D180A5 /* libPods-snapkitTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09F928CB77B7FECE6C845A74 /* Pods-Hipo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hipo.debug.xcconfig"; path = "Target Support Files/Pods-Hipo/Pods-Hipo.debug.xcconfig"; sourceTree = "<group>"; };
+		0C4C1CA25C6066B9E4318E52 /* libPods-Hipo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hipo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		128D7B305ABD1ECA2AF81A09 /* Pods-snapkitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snapkitTest.release.xcconfig"; path = "Target Support Files/Pods-snapkitTest/Pods-snapkitTest.release.xcconfig"; sourceTree = "<group>"; };
+		5F22BA8D39FF97E6ACB75EA6 /* Pods-Hipo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hipo.release.xcconfig"; path = "Target Support Files/Pods-Hipo/Pods-Hipo.release.xcconfig"; sourceTree = "<group>"; };
 		65198A6724203CF3004CE10D /* MembersSortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersSortView.swift; sourceTree = "<group>"; };
 		651A6E9F242AA398002D3B3D /* ExtensionEM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionEM.swift; sourceTree = "<group>"; };
 		6522EFE22428E5CB0099A6AF /* ExtensionNM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionNM.swift; sourceTree = "<group>"; };
@@ -41,7 +44,6 @@
 		65D7CB05241D63DA004F041C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65D7CB07241D63DA004F041C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E9458C546AE5F9EF1408B3E /* Pods-snapkitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snapkitTest.debug.xcconfig"; path = "Target Support Files/Pods-snapkitTest/Pods-snapkitTest.debug.xcconfig"; sourceTree = "<group>"; };
-		A969A7216D89566905D180A5 /* libPods-snapkitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-snapkitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F255DF004184F32E288A5790 /* libPods-snapkitTest.a in Frameworks */,
+				54099587A7AAEE35C8673667 /* libPods-Hipo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +61,7 @@
 		3D5B596DEC7267F6003AE331 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A969A7216D89566905D180A5 /* libPods-snapkitTest.a */,
+				0C4C1CA25C6066B9E4318E52 /* libPods-Hipo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,6 +166,8 @@
 			children = (
 				6E9458C546AE5F9EF1408B3E /* Pods-snapkitTest.debug.xcconfig */,
 				128D7B305ABD1ECA2AF81A09 /* Pods-snapkitTest.release.xcconfig */,
+				09F928CB77B7FECE6C845A74 /* Pods-Hipo.debug.xcconfig */,
+				5F22BA8D39FF97E6ACB75EA6 /* Pods-Hipo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -251,7 +255,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-snapkitTest-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Hipo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -408,7 +412,7 @@
 		};
 		65D7CB0B241D63DA004F041C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E9458C546AE5F9EF1408B3E /* Pods-snapkitTest.debug.xcconfig */;
+			baseConfigurationReference = 09F928CB77B7FECE6C845A74 /* Pods-Hipo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -428,7 +432,7 @@
 		};
 		65D7CB0C241D63DA004F041C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 128D7B305ABD1ECA2AF81A09 /* Pods-snapkitTest.release.xcconfig */;
+			baseConfigurationReference = 5F22BA8D39FF97E6ACB75EA6 /* Pods-Hipo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

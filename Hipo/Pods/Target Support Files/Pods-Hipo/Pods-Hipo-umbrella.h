@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_snapkitTestVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_snapkitTestVersionString[];
+FOUNDATION_EXPORT double Pods_HipoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_HipoVersionString[];
 
