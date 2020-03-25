@@ -67,3 +67,6 @@ I made the designs on the **figma**, sticking to the template you sent.
 
 ## Author
 If you wish to contact me, email at: byilmaz50@hotmail.com
+
+## License
+Hipo is available under the MIT license. See the LICENSE file for more info.
