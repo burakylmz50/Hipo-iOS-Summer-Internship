@@ -10,7 +10,7 @@
 
 ## Code structure
 
-##### Add load json function
+#### Add load json function
 ```swift
     func loadJson(filename fileName: String)-> [HipoJson] {
         if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
@@ -26,11 +26,11 @@
         return array
     }
 ```
-### Sort rules
+##### Sort rules
 * By using the extension function you wrote, find the most occurences of the character for each string in the array and sort in **descending** order.
 * If two or more strings contain the same amount for the character, sort these according to their **length**.
 * If two or more strings contain the same amount for the character and have the same length, sort these in **alphabetical** order.
-##### Sort members function
+#### Sort members function
 ```swift
     func sort(members:[HipoJson],character:String) -> [HipoJson]{
         var sortedArr = members
