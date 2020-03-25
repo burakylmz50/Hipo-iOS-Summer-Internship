@@ -26,6 +26,10 @@
         return array
     }
 ```
+### Sort rules
+* By using the extension function you wrote, find the most occurences of the character for each string in the array and sort in **descending** order.
+* If two or more strings contain the same amount for the character, sort these according to their **length**.
+* If two or more strings contain the same amount for the character and have the same length, sort these in **alphabetical** order.
 ##### Sort members function
 ```swift
     func sort(members:[HipoJson],character:String) -> [HipoJson]{
@@ -47,6 +51,14 @@
         return sortedArr
     }
 ```
+## Design pattern
+MVC design pattern is used for this project.
+
+## Third Party Libraries
+* <a href="https://github.com/SnapKit/SnapKit">SnapKit</a>
+
+## Design
+I made the designs on the **figma**, sticking to the template you sent.
 
 ## Requirements
 * iOS 11.0+
